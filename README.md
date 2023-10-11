@@ -1,6 +1,6 @@
 # Upload-ai-server
 
-Breve descrição do seu projeto.
+Este readme está em andamento...
 
 ## O que foi usado na Aplicação
 
@@ -25,6 +25,22 @@ Breve descrição do seu projeto.
             - **prompt**: Uma string que representa uma mensagem ou instrução inicial para o modelo de linguagem.
             - **temperature**: Um número que controla a "criatividade" das respostas geradas, com um valor padrão de 0.5 e faixa entre 0 e 1.
     - Em resumo, esta rota de back-end recebe uma solicitação para gerar completions de texto usando um modelo de linguagem da OpenAI com base em um vídeo identificado pelo videoId. Ela cria uma mensagem de prompt que pode incluir a transcrição do vídeo, envia a solicitação para a OpenAI e retorna as respostas geradas para o cliente. Se a transcrição do vídeo não estiver disponível, a rota retorna um erro. A "temperatura" é um parâmetro opcional que afeta a diversidade das respostas geradas.
+
+  3. **Pegar prompts**
+  - `/prompts`
+    - Essa rota de back-end tem a finalidade de buscar e retornar uma lista de prompts (mensagens ou instruções) armazenados no banco de dados. Ela responde a uma solicitação HTTP GET na rota '/prompts' e não requer a passagem de parâmetros na solicitação.
+
+  4. **Upload de video**
+  - `/videos`
+    - Essa rota de back-end tem a finalidade de permitir o upload de arquivos de vídeo no formato MP3. Ela responde a uma solicitação HTTP POST na rota '/videos' e lida com o envio de arquivos de vídeo por parte dos usuários. A rota aceita um arquivo de vídeo no formato MP3 e realiza as seguintes operações:
+        -  Configuração de Limites de Tamanho do Arquivo
+        -  Tratamento do Arquivo Enviado
+        -  Validação do Formato do Arquivo
+        -  Geração de Nomes de Arquivos Únicos
+        -  Upload do Arquivo
+        -  Criação de Registro no Banco de Dados
+        -  Resposta ao Cliente
+    - Em resumo, essa rota de back-end permite que os usuários carreguem arquivos de vídeo no formato MP3, armazena esses arquivos no servidor em um diretório temporário e registra as informações do vídeo no banco de dados. Ela é útil para a preparação de arquivos de vídeo para processamento posterior em um aplicativo ou serviço.
 
 ## Como Executar a Aplicação
 
