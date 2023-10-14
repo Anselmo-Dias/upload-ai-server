@@ -73,7 +73,7 @@ Inclua imagens, GIFs ou vídeos que demonstrem a aparência e o funcionamento da
 
 ## Contribuição
 
-Se você deseja contribuir para o projeto, siga as diretrizes de contribuição (se houver) e as informações sobre como as contribuições são bem-vindas.
+Se você deseja contribuir para o projeto, siga as diretrizes de contribuição (se houver) e as informações sobre como as contribuições são bem-vindas
 
 ## Licença
 
