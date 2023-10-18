@@ -77,17 +77,15 @@ Siga os passos abaixo para executar a aplicação no seu ambiente local.
 
 ## Mídia
 
-Inclua imagens, GIFs ou vídeos que demonstrem a aparência e o funcionamento da sua aplicação. Você pode carregar esses arquivos no seu repositório e adicionar os links a eles aqui.
+![upload-ai](https://github.com/Anselmo-Dias/upload-ai-server/assets/96529532/47ed3804-8a26-46ef-9efb-436ddefe8b5d)
 
-![Captura de Tela 1](/screenshots/screenshot1.png)
-![Captura de Tela 2](/screenshots/screenshot2.png)
+## :memo: License
 
-## Contribuição
+Este projeto esta sob a [MIT license](LICENSE) para mais detalhes.
+<br />
+<br />
 
-Se você deseja contribuir para o projeto, siga as diretrizes de contribuição (se houver) e as informações sobre como as contribuições são bem-vindas
+## :iphone: Social
 
-## Licença
-
-Este projeto está licenciado sob a [Nome da Licença](URL da Licença) - Consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
-
-
+Siga -me no instagram
+<br />
