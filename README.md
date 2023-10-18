@@ -44,15 +44,22 @@ Este readme está em andamento...
             - **prompt**: Uma string que representa uma mensagem ou instrução inicial para o modelo de linguagem.
             - **temperature**: Um número que controla a "criatividade" das respostas geradas, com um valor padrão de 0.5 e faixa entre 0 e 1.
     - Em resumo, esta rota de back-end recebe uma solicitação para gerar completions de texto usando um modelo de linguagem da OpenAI com base em um vídeo identificado pelo videoId. Ela cria uma mensagem de prompt que pode incluir a transcrição do vídeo, envia a solicitação para a OpenAI e retorna as respostas geradas para o cliente. Se a transcrição do vídeo não estiver disponível, a rota retorna um erro. A "temperatura" é um parâmetro opcional que afeta a diversidade das respostas geradas.
-    - 
+      
 
 ## Como Executar a Aplicação
 
 Siga os passos abaixo para executar a aplicação no seu ambiente local.
 
 1. **Pré-requisitos**:
-   - Liste quaisquer pré-requisitos, como versões específicas de software, que o usuário deve ter instalado antes de seguir as instruções. Exemplo: Node.js, NPM, etc.
-
+   - faça uma conta na [OpenAI](https://openai.com/)
+   - depois de fazer login, vá na opção api
+      - ![image](https://github.com/Anselmo-Dias/upload-ai-server/assets/96529532/cbb7d703-95b6-47db-a25c-e8006f654e8a)
+   - Acesse a opção view keys
+      - ![image](https://github.com/Anselmo-Dias/upload-ai-server/assets/96529532/d60801f1-ca91-4585-8169-d3cc6d1e6176)
+   - E crie uma key
+      - ![image](https://github.com/Anselmo-Dias/upload-ai-server/assets/96529532/79672a7a-0c82-4534-b0e9-c7dea8900c45)
+   - Você deve copiar essa key, e depois de fazer download do projeto, coloque essa key no arquivo `.env`
+ 
 2. **Clonar o Repositório**:
   - git clone https://github.com/seu-usuario/seu-repositorio.git
 
