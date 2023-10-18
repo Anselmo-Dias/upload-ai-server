@@ -61,19 +61,19 @@ Siga os passos abaixo para executar a aplicação no seu ambiente local.
    - Você deve copiar essa key, e depois de fazer download do projeto, coloque essa key no arquivo `.env`
  
 2. **Clonar o Repositório**:
-  - git clone https://github.com/seu-usuario/seu-repositorio.git
+  - `git clone https://github.com/Anselmo-Dias/upload-ai-server.git`
 
 3. **Navegar para o Diretório do Projeto**:
-  - cd seu-repositorio
+  - `cd nome-do-repositorio`
 
 4. **Instalar Dependências**:
- - npm install
+ - `npm install` ou `npm i`
 
 5. **Iniciar a Aplicação**:
  - npm run dev
 
 
-6. Acesse a aplicação em seu navegador, geralmente em [http://localhost:3000](http://localhost:3000).
+6. A aplicação vai está rodando em [http://localhost:3000](http://localhost:3000).
 
 ## Mídia
 
