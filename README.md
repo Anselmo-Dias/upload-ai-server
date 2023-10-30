@@ -1,6 +1,6 @@
 # Upload-ai-server
 
-Este readme está em andamento...
+Faça upload de videos e deixe a AI fazer a tarefa para você 🏆🚀
 
 ## O que foi usado na Aplicação
 
