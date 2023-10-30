@@ -39,7 +39,7 @@ Este readme está em andamento...
         - Corpo da Requisição (Request Body):
             - **videoId**: Um identificador único (UUID) associado a um vídeo.
             - **prompt**: Uma string que representa uma mensagem ou instrução inicial para o modelo de linguagem.
-            - **temperature**: Um número que controla a "criatividade" das respostas geradas, com um valor padrão de 0.5 e faixa entre 0 e 1.
+            - **temperature**: Um número que controla a "criatividade" das respostas geradas, com um valor padrão de 0.5 e faixa entre 0/1.
     - Em resumo, esta rota de back-end recebe uma solicitação para gerar completions de texto usando um modelo de linguagem da OpenAI com base em um vídeo identificado pelo videoId. Ela cria uma mensagem de prompt que pode incluir a transcrição do vídeo, envia a solicitação para a OpenAI e retorna as respostas geradas para o cliente. Se a transcrição do vídeo não estiver disponível, a rota retorna um erro. A "temperatura" é um parâmetro opcional que afeta a diversidade das respostas geradas.
       
 ## Como Executar a Aplicação
